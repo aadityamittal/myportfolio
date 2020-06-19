@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Piedra&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <ul class="topnav" id="dropdownclick">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#News">News</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#About">About</a></li>
+            <li class="nav-bar-right"><a href="#SigIn">Sign In</a></li>
+            <li class="nav-bar-right"><a href="#SignUp">SignUp</a></li>
+            <li class="dropdownicon"><a href="javascript::void(0);" onclick=dropdownmenu()>&#9776;</a></li>
+            </ul>
+        </nav>
+        <div class="container" id="section1gradient">
+            <div class="row">
+                <div class="col-6">
+                <div class="acha">
+                    <div class="left-side-col">
+                    <h1 class="large">Welcome To My Site</h1>
+                </div>
+                    <form>
+                        <div class="left-side-col">
+                            <h2>Name:</h2>
+                            <input class="inputbox" name="username" type="text" placeholder="Enter your name"> 
+                            <h2>Pass Word:</h2>
+                            <input class="inputbox" name="password" type="password" placeholder="Enter your password"> 
+                            <button type="submit" class="but">Submit</button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+            <div class="col-6">
+            <div class="right-side-col">
+                <div class="imagecontainer">
+                 <img src="material1.jpg">
+                </div>    
+            </div>    
+        </div>    
+    </div>
+</div>
+        <header>
+            <h1 class="section-2-header">Act Justly</h1>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                            <img src="sun.jpg" height="110px",width="110px">
+                        </div>
+                        <label>Chat with me</label>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                            <img src="sun.jpg" height="110px",width="110px">
+                        </div>
+                        <label>Learn to Code</label>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                            <img src="sun.jpg" height="110px",width="110px">
+                        </div>
+                        <label>About me</label>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    </div>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                     <button type="submit" class="learnmore">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-7">
+                    <article>
+                   <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    </article>
+                </div>
+                <div class="col-5">
+                    <div class="slopeIcon">
+                        <img src="lion.png" width="350px" height="350px">
+                    </div>
+                  
+                </div>
+            </div>
+        
+        </div>
+           
+        <footer class=footsy>
+            <div class="row stand">
+               <div class="col-6 searchsite">
+                   <div class="searchthesite">
+                     <h1 class="j1">Search More</h1>
+                   <input type="search" class="j2" placeholder="Search this Site">
+                    &#128300;
+                   </div>               
+              
+                </div>
+                <div class="col-3 mobilestack">
+                    <h1>Me</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Blogs</li>
+                        <li>Carriers</li>
+                    </ul>
+                        
+                </div>
+                <div class="col-3 mobilestack">
+                    <h1>I am</h1>
+                    <ul>
+                        <li>Coder</li>
+                        <li>Sheff</li>
+                        <li>Free Lancer</li>
+                    </ul>
+                        
+                </div>
+               
+                
+            </div>
+      </footer>
+        
+        
+        
+        
+        
+       <script>
+            function dropdownmenu()
+           {
+               var x=document.getElementById("dropdownclick");
+               if(x.className==="topnav")
+                   {
+                       x.className+=" responsive";
+                   }
+               else{
+                   x.className="topnav";
+               }
+           }
+        
+        </script> 
+        
+        
+        
+        
+        
+        
+
+    </body>
+    
+    
+    
+    
+    
+</html>
